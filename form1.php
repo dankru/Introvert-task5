@@ -1,6 +1,6 @@
 <?php
-$fileName = 'loop-number.txt';
-$loopNumber = file('loop-number1.txt', FILE_IGNORE_NEW_LINES);
+$fileName = 'loop-number1.txt';
+$loopNumber = file($fileName, FILE_IGNORE_NEW_LINES);
 $idArray = [1240231, 1620274, 3001336];
 $_POST['responsible_user_id'] = $idArray[$loopNumber[0] - 1];
 
