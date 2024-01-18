@@ -16,4 +16,4 @@ if ($loopNumber[0] < 3) {
     $loopNumber[0]++;
 }
 
-file_put_contents('loop-number.txt', $loopNumber);
+file_put_contents('loop-number2.txt', $loopNumber);
