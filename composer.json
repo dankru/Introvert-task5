@@ -1,0 +1,24 @@
+{
+  "name": "user/task5",
+  "autoload": {
+    "psr-4": {
+      "User\\Task5\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Pirogov",
+      "email": "pirogovde@mer.ci.nsu.ru"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://pirogovde@bitbucket.org/mahatmaguru/intr-sdk-test.git"
+    }
+  ],
+  "require": {
+    "mahatmaguru/intr-sdk-test": "*@dev",
+    "ext-json": "*"
+  }
+}
